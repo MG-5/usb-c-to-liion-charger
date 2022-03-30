@@ -323,6 +323,10 @@
     [
       "129dbfb3-87d3-4989-9b99-2f3715fc4ca9",
       "Charge-IC"
+    ],
+    [
+      "470ed0ff-c7a4-4f13-ad04-badcdcbc3fb4",
+      "Boost-Converter"
     ]
   ],
   "text_variables": {}
