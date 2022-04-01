@@ -1528,8 +1528,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f859b5d1-5db4-4371-b7c7-d1b6bcdf7290)
   )
-  (text "- if no voltage is given, then for all caps 6.3V are stated\n\n- input voltage by USB-C power delivery: 5V-20V\n- 65W or 100W input power -> @20V 3,25A or 5A input current\n- charge current varies with battery voltage:\n	- empty 10S battery: 32V (3.2V per cell)\n	- full 10S battery: 42V (4.2V per cell)\n	- empty 12S battery: 38.4V\n	- full 12S battery: 50.4V\n- charge current \n	- @32V, 65W is 2,03A\n	- @50,4V, 65W is 1,29A\n	- @32V, 100W is 3,125A\n	- @50,4V, 100W is 1,98A\n\n-> limit charge current to 3A\n-> limit input to 3.25A and 5A respectively to input maxium power (switchable)\n\n- no input voltage monitoring -> tie VM to BIAS\n- no timeout -> TMR to BIAS"
-    (at 13.97 55.88 0)
+  (text "- input voltage by USB-C power delivery: 5V-20V\n- 65W or 100W input power -> @20V 3,25A or 5A input current\n- charge current varies with battery voltage:\n	- empty 10S battery: 32V (3.2V per cell)\n	- full 10S battery: 42V (4.2V per cell)\n	- empty 12S battery: 38.4V\n	- full 12S battery: 50.4V\n- charge current \n	- @32V, 65W is 2,03A\n	- @50,4V, 65W is 1,29A\n	- @32V, 100W is 3,125A\n	- @50,4V, 100W is 1,98A\n\n-> limit charge current to 3A\n-> limit input to 3.25A and 5A respectively to input maxium power (switchable)\n\n- no input voltage monitoring -> tie VM to BIAS\n- no timeout -> TMR to BIAS"
+    (at 13.97 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa7ffdb7-1cca-455b-b16a-430a7559fcd0)
   )
