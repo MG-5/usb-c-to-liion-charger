@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|115400000|86800000|9ec5ee38-1c7f-420a-8249-be9d57d95cc4|c6dc773b-e98a-4752-8cad-33dc4ba20a55",
+        "silk_over_copper|124600000|86800000|b5d50caf-c85d-438f-bf6a-fdf7d0228d3c|3272b0d4-e6df-4e7b-881c-a33852625326",
+        "silk_over_copper|97500000|106720000|284c18f5-c7d9-4cb3-9cd2-d5ca24fec4b0|f896a7a6-b0ad-4dba-85ec-175575539302",
+        "silk_over_copper|97500000|97780000|284c18f5-c7d9-4cb3-9cd2-d5ca24fec4b0|1077f049-6296-4126-918c-9977b7c27595"
+      ],
       "meta": {
         "version": 2
       },
@@ -372,7 +377,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
-        "via_drill": 0.3,
+        "via_drill": 0.24,
         "wire_width": 6.0
       }
     ],
