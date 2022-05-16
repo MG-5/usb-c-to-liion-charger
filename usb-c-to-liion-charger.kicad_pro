@@ -56,8 +56,6 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|115400000|86800000|9ec5ee38-1c7f-420a-8249-be9d57d95cc4|c6dc773b-e98a-4752-8cad-33dc4ba20a55",
-        "silk_over_copper|124600000|86800000|b5d50caf-c85d-438f-bf6a-fdf7d0228d3c|3272b0d4-e6df-4e7b-881c-a33852625326",
         "silk_over_copper|97500000|106720000|284c18f5-c7d9-4cb3-9cd2-d5ca24fec4b0|f896a7a6-b0ad-4dba-85ec-175575539302",
         "silk_over_copper|97500000|97780000|284c18f5-c7d9-4cb3-9cd2-d5ca24fec4b0|1077f049-6296-4126-918c-9977b7c27595"
       ],
@@ -109,9 +107,9 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_copper_edge_clearance": 0.01,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.5,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
@@ -126,13 +124,19 @@
       "track_widths": [
         0.0,
         0.15,
+        0.25,
         0.5,
-        1.0
+        1.0,
+        1.5
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.24
         },
         {
           "diameter": 0.8,
@@ -377,7 +381,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
-        "via_drill": 0.24,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
