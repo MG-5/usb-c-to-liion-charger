@@ -1832,7 +1832,7 @@
       (reference "C21") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/470ed0ff-c7a4-4f13-ad04-badcdcbc3fb4/9c07fb77-d6d3-417d-bc45-d954221092dd"
-      (reference "C22") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C22") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/8027d007-1af8-4bbf-8136-523258bbebd1"
       (reference "D1") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1949,13 +1949,13 @@
       (reference "R20") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/129dbfb3-87d3-4989-9b99-2f3715fc4ca9/75d4532a-7ba1-4ee1-a994-a2513c82b489"
-      (reference "R21") (unit 1) (value "6k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R21") (unit 1) (value "6k8") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/129dbfb3-87d3-4989-9b99-2f3715fc4ca9/0d8b97c3-be58-49f8-b1da-861590e3359a"
-      (reference "R22") (unit 1) (value "6k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R22") (unit 1) (value "6k8") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/129dbfb3-87d3-4989-9b99-2f3715fc4ca9/23f99314-ebea-4bd9-8a9b-76344cabbf9f"
-      (reference "R23") (unit 1) (value "6k5") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R23") (unit 1) (value "6k49") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/129dbfb3-87d3-4989-9b99-2f3715fc4ca9/7cceb4fb-c77d-4423-9b20-7cad3178d244"
       (reference "R24") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
