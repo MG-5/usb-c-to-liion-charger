@@ -32,3 +32,4 @@ fp-info-cache
 
 # Gerber export output
 out/
+/export/gerber/
