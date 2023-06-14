@@ -1583,6 +1583,14 @@
     (uuid fe948793-558f-4391-8199-624dbe3219f5)
   )
 
+  (text_box "FREQ: \n- tie pin through resistor to GND\n- 35kOhm -> ~200kHz -> use 33kOhm"
+    (at 77.47 24.13 0) (size 43.18 7.62)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 9758085c-81c7-4003-89ea-2b875a645e5c)
+  )
+
   (text "Power loss\n----------\nmain mosfet:\n  ((V_{OUT} − V_{IN}) * 50,4V)/(V_{IN})^{2}) * I_{OUT(max)}^{2} * ((1 + d) * (50°C-25°C)) * R_{DS(ON)} + 1.7 × V_{IN}^{3} * (I_{OUT(max)}/V_{IN}) * C_{RSS} * f\n  ((50,4V − 20) * 50,4V)/(20V)^{2}) * (3A)^{2} * (1 + 0.008 * (50°C-25°C)) * 9mOhm + 1.7 × (50,4V)^{3} * (3A/20V) * 13pF * 535kHz\n  P_{main} = 0.6W\n\nsync mosfet:\n  (V_{IN} / V_{OUT}) * I_{OUT(max)}^{2} * (1 + d * (50°C-25°C)) * R_{DS(ON)}\n  (20V / 32V) * 3A^{2} * (1 + 0.008 * (50°C-25°C)) * 2mOhm\n\n  P_{sync} = 13mW\n"
     (at 13.97 55.88 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1593,7 +1601,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 307b1fea-f2af-4121-b44b-4ce8e3e16a4b)
   )
-  (text "I_{maxIn} = 5A @100W\nI_{rippleDelta} = 0.3 * I_{maxIn} = 1.5A\nL = (20V / (500kHz * 1.5A)) * (1 - (20V / 50.4V))\nL = 16.08uH -> 22uH due saturation (XGL6060)\n\nR_{Sense} = 50mV / (I_{maxIn} + (I_{rippleDelta} / 2))\nR_{Sense} = 8mOhm -> we use 5mOhm \n\n\n"
+  (text "I_{maxIn} = 5A @100W\nI_{rippleDelta} = 0.3 * I_{maxIn} = 1.5A\nL_{500kHz} = (20V / (500kHz * 1.5A)) * (1 - (20V / 50.4V))      L_{200kHz} = (20V / (200kHz * 1.5A)) * (1 - (20V / 50.4V))\nL_{500kHz} = 16.08uH -> 22uH due saturation (XGL6060)          L_{200kHz} = 40.21uH -> 47uH\n\nR_{Sense} = 50mV / (I_{maxIn} + (I_{rippleDelta} / 2))\nR_{Sense} = 8mOhm -> we use 5mOhm \n\n\n"
     (at 13.97 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 383d048f-39ad-4479-abb1-c22a3fc773c1)
